@@ -33,16 +33,20 @@ body{
 }
 .link {
     text-decoration: none;
-    color: var(--title-text-color);
+    color: inherit;
 }
-.link:hover, .link:focus {
-    color: var(--accent-color);
-}
+header .link:hover, header .link:focus{
+    color: var(--accent-color);}
 .site-nav {
+    color: var(--title-text-color);
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+.actine-page {
+    color: var(--accent-color);
+}
+
 /* герой */
 .hero{
     background-color: var(--dark-background-color);}
@@ -58,6 +62,7 @@ body{
 .button {
     color: var(--primary-background-color);
     background-color: var(--accent-color);
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -99,7 +104,10 @@ body{
 .footer-logo {
     color: var(--primary-background-color);
 }
-
+footer .link:hover,
+footer .link:focus {
+    color: var(--accent-color);
+}
 address {
     font-style: normal;
 }
@@ -115,6 +123,7 @@ address {
 .filter {
     color: var(--title-text-color);
     background-color: var(--secondary-background-color);
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
