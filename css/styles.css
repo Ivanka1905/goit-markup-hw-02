@@ -17,7 +17,6 @@ body{
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
-/* шапка сайту */
 .logo {
     color: var(--logo-studio-color);
     font-family: 'Raleway', sans-serif;
@@ -47,7 +46,6 @@ header .link:hover, header .link:focus{
     color: var(--accent-color);
 }
 
-/* герой */
 .hero{
     background-color: var(--dark-background-color);}
 .hero h1 {
@@ -118,8 +116,6 @@ address {
     color: var(--footer-font-color);
 }
 
-/* сторінка портфоліо */
-/* кнопки фільтра */
 .filter {
     color: var(--title-text-color);
     background-color: var(--secondary-background-color);
